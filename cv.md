@@ -1,6 +1,6 @@
 **CV**
 
-1. Artsiom Vasileuski ![My photo](/photo.jpeg)
+1. Artsiom Vasileuski ![My photo](/photo.jpeg =100x100)
 2. - discord: vasileuski
    - telegram: vasileuski_artsiom
    - e-mail: vasileuski.artsiom@gmail.com
