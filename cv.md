@@ -5,7 +5,7 @@
    - telegram: vasileuski_artsiom
    - e-mail: vasileuski.artsiom@gmail.com
    - phone number: +375-44-725-34-43 / +995-555-794-214
-3. I'm 25 years old. This year I have been graduated from university. At this moment I work as a support-specialist in IT-company. I have a big desire to change my life. My goal is to discover new and develop myself. Make something that will charge me every single day.
+3. > I'm 25 years old. This year I have been graduated from university. At this moment I work as a support-specialist in IT-company. I have a big desire to change my life. My goal is to discover new and develop myself. Make something that will charge me every single day.
 4. - JS
    - React
    - Git
