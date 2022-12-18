@@ -9,93 +9,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- prettier-ignore -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Resume</title>
+    <!-- prettier-ignore -->
+    <link rel="icon" href="assets/images/favicon.ico" >
+    <!-- prettier-ignore -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <!-- prettier-ignore -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <!-- prettier-ignore -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <script
+      src="https://kit.fontawesome.com/4450e551f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>CV</title>
   </head>
+
   <body>
-    <main>
-      <div>
-        <div>
-          <p>Artsiom Vasileuski</p>
-        </div>
+    <header class="header">
+      <div class="container">
+        <section class="header__content">
+          <div>
+            <h1 class="header__name">Artsiom Vasileuski</h1>
+            <ul class="header__list">
+              <li class="header__list-item">
+                <h4><i class="fa-solid fa-envelope header__icon"></i> Email</h4>
+                <a
+                  href="mailto:vasileuski.artsiom@gmail.com"
+                  style="color: white"
+                  >vasileuski.artsiom@gmail.com</a
+                >
+              </li>
+              <li class="header__list-item">
+                <h4>
+                  <i class="fa-solid fa-phone header__icon"></i> Phone number
+                </h4>
+                +375-44-725-34-43 / +995-555-794-214
+              </li>
+              <li class="header__list-item">
+                <h4>
+                  <i class="fa-brands fa-discord header__icon"></i> Discord
+                </h4>
+                vasileuski
+              </li>
+              <li class="header__list-item">
+                <h4>
+                  <i class="fa-brands fa-telegram header__icon"></i> Telegram
+                </h4>
+                <a href="https://t.me/vasileuski_artsiom" style="color: white"
+                  >vasileuski_artsiom</a
+                >
+              </li>
+            </ul>
+          </div>
 
-        <div>
-          <ul>
-            <li>email: vasileuski.artsiom@gmail.com</li>
-            <li>phone number: +375-44-725-34-43 / +995-555-794-214</li>
-            <li>discord: vasileuski</li>
-            <li>telegram: vasileuski_artsiom</li>
-          </ul>
-        </div>
+          <div>
+            <!-- prettier-ignore -->
+            <img
+              class="header__photo"
+              src="./assets/images/avatar.jpg"
+              alt="avatar"
+            >
+          </div>
+        </section>
       </div>
+    </header>
 
-      <div>
-        <div>
-          <p>
-            About me: I'm 25 years old. One year ago I've been graduated from
-            university. At this moment I work as a support-specialist in
-            IT-company. I have a big desire to change my life. My goal is to
-            discover new and develop myself. Make something that will charge me
-            every single day.
-          </p>
-        </div>
+    <main class="main">
+      <div class="container">
+        <div class="main__content">
+          <section class="main__left-block left-block">
+            <div class="left-block__element">
+              <h2 class="left-block__title">Skills</h2>
+              <ul>
+                <li>JS</li>
+                <li>React</li>
+                <li>Git</li>
+              </ul>
+            </div>
 
-        <div>
-          Skills:
-          <ul>
-            <li>JS</li>
-            <li>React</li>
-            <li>Git</li>
-          </ul>
-        </div>
+            <div class="left-block__element">
+              <h2 class="left-block__title">Code examples</h2>
+              <a href="https://vasileuski.github.io/bookstore/">Click it!</a>
+            </div>
 
-        <div>
-          <p>
-            Code examples:
-            <a href="https://vasileuski.github.io/bookstore/">Click it!</a>
-          </p>
-        </div>
-      </div>
+            <div class="left-block__element">
+              <h2 class="left-block__title">Languages</h2>
+              <ul class="left-block__language-list">
+                <li class="left-block__language-item">
+                  English: Upper-Intermediate(B2);
+                </li>
+                <li class="left-block__language-item">
+                  Polish: Pre-intermediate(A2).
+                </li>
+              </ul>
+            </div>
+          </section>
 
-      <div>
-        <div>
-          <p>
-            Work experience: Just start learning in rs-school on JS/FE
-            Pre-School.
-          </p>
-        </div>
+          <section class="main__right-block right-block">
+            <div class="right-block__element">
+              <h2 class="right-block__title">About me</h2>
+              <p>
+                I'm 25 years old. One year ago I've been graduated from
+                university. At this moment I work as a support-specialist in
+                IT-company. I have a big desire to change my life. My goal is to
+                discover new and develop myself. Make something that will charge
+                me every single day.
+              </p>
+            </div>
 
-        <div>
-          <p>Eduction:</p>
-          <ul>
-            <li>
-              2017-<a href="http://lgk.mslu.by"
-                >Linguistic and Humanitarian College</a
-              >
-            </li>
-            <li>2021-<a href="https://www.mslu.by">MSLU</a></li>
-            <li>
-              2022-<a
-                href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-online"
-                >TeachMeSkills: Front-End developer</a
-              >
-            </li>
-          </ul>
-        </div>
+            <div class="right-block__element">
+              <h2 class="right-block__title">Work experience</h2>
+              <p>Just start learning in rs-school on JS/FE Pre-School.</p>
+            </div>
 
-        <div>
-          <p>Languages:</p>
-          <ul>
-            <li>English: Upper-Intermediate(B2);</li>
-            <li>Polish: Pre-intermediate(A2).</li>
-          </ul>
+            <div class="right-block__element">
+              <h2 class="right-block__title">Education</h2>
+              <ul class="right-block__education-list">
+                <li class="right-block__education-item">
+                  2017 -
+                  <a href="http://lgk.mslu.by"
+                    >Linguistic and Humanitarian College</a
+                  >
+                </li>
+                <li class="right-block__education-item">
+                  2021 - <a href="https://www.mslu.by">MSLU</a>
+                </li>
+                <li class="right-block__education-item">
+                  2022 -
+                  <a
+                    href="https://teachmeskills.by/kursy-programmirovaniya/frontend-html-css-javascript-online"
+                    >TeachMeSkills: Front-End developer</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
         </div>
       </div>
     </main>
-    <footer>
-      <a href="https://github.com/vasileuski">GitHub</a>|22.07.2021|<a
-        href="https://rs.school/js/"
-        >Course</a
-      >
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__info">
+            <a href="https://github.com/vasileuski" class="footer__git-link"
+              >GitHub</a
+            >|2022|<a href="https://rs.school/js/">Course</a>
+          </div>
+          <!-- prettier-ignore -->
+          <img
+            class="footer__course-link"
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="course logo"
+            width="100"
+            height="100"
+          >
+        </div>
+      </div>
     </footer>
   </body>
 </html>
